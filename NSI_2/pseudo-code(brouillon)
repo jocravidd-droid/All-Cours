@@ -1,0 +1,43 @@
+Présentation du qcm de façon stylée
+création d'un dict vide
+cumulateur
+x = []
+
+animation de chargement de données
+parcourire le fichier qcm.txt:
+    * séparer les question a gauche et les réponse a droite et .strip() pour effacer les éspace et puis tout AJOUTÉ dans la variable (x) au format tuple pour avoir les question et réponse ensemble 
+    * ouvre la variable x vérifie les question pour voir s'il y en a une qui sont double:
+    	si oui signialer en donnant une alerte en rouge en dessous de l'animation indiquant "[ERREUR] {raison}" et continuer le traitement
+    	sinon continuer et traiter tout les ligne
+	enregistrer les question dans le dict avec leur valeur(réponse) | le dict se chargera de les ecraser parce que une meme clée ne peut pas coexister
+fin d'animation
+
+q = list(dict.keys())
+if len(q) >= 10:
+	boucle de jeux:
+		score = 0
+		carte = random.sample(q, k=10)
+		commencer a y accéder et les envoyer un par un en prenant ce de carte donc q_en_cours:
+	    		majuscule = ["A",...]
+	    		choix = []
+			parcours m in majuscule:
+				test = f"{m}-" in q_en_cours
+				if test == True:
+				    choix.append(m)
+			vérification de la réponse (dict[q_en_cours] == Réponse):
+				* si la réponse et absente de la liste des choix "Hmm réssayer" et il recommence la question et la verification
+	    			* si la réponse et mauvaise "Bien Essayée mais c'était (réponse)"
+	    			* si la réponse et bonne "BIen Joué":
+	        		score += 1
+	        		cumulateur += 1
+	       quand il a fini les 10 question:
+	       		affichage du score sur 10
+	       		[cummulateur] | c (CONTINUER), e (Exit):
+	       			* si e.lower() en break
+	       			* si c en recommence juste le jeux avec de nouvelle question
+	quand il a quitter:
+		affiche "GOOD BYE CHAMPION"
+		time(1)
+else:
+    affiché "Minimum de 10 quéstion"
+    coupe le programme

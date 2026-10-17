@@ -1,0 +1,94 @@
+PRÉSENTATION DU QCM DE FAÇON STYLÉE
+
+Créer un dictionnaire vide : qcm
+Initialiser le cumulateur à 0
+Créer une liste vide : x = []
+
+ANIMATION DE CHARGEMENT DES DONNÉES
+
+Parcourir le fichier qcm.txt :
+    - Séparer chaque ligne en deux parties avec ";;"
+        - La question à gauche
+        - La réponse à droite
+    - Utiliser .strip() pour supprimer les espaces inutiles
+    - Ajouter la question et la réponse dans x sous forme de tuple
+
+Parcourir la liste x :
+    - Vérifier si la question existe déjà dans qcm
+        - Si oui :
+            - Signaler une erreur en rouge sous l'animation :
+              "[ERREUR] {raison}"
+            - Continuer le traitement
+        - Sinon :
+            - Continuer le traitement
+    - Enregistrer la question dans qcm avec sa réponse
+      (si la clé existe déjà, sa valeur sera remplacée)
+
+FIN DE L'ANIMATION
+
+q = liste des clés de qcm
+
+SI le nombre de questions est supérieur ou égal à 10 :
+
+    BOUCLE DE JEU :
+
+        Initialiser le score de la partie à 0
+
+        carte = sélectionner 10 questions au hasard dans q,
+                sans répétition
+
+        Parcourir carte :
+            La question en cours est q_en_cours
+
+            Afficher q_en_cours
+
+            majuscule = ["A", "B", "C", "D", "E"]
+            choix = []
+
+            Parcourir chaque lettre m dans majuscule :
+                test = vérifier si f"{m}-" est présent dans q_en_cours
+
+                SI test est vrai :
+                    Ajouter m à choix
+
+            DEMANDER une réponse au joueur
+
+            VÉRIFIER LA RÉPONSE :
+
+                SI la réponse est absente de choix :
+                    Afficher "Hmm, réessaie"
+                    Redemander la réponse
+                    Recommencer la vérification
+
+                SINON SI la réponse est incorrecte :
+                    Afficher "Bien essayé, mais c'était {réponse correcte}"
+                    Passer à la question suivante
+
+                SINON SI la réponse est correcte :
+                    Afficher "Bien joué !"
+                    score += 1
+                    cumulateur += 1
+                    Passer à la question suivante
+
+        QUAND LES 10 QUESTIONS SONT TERMINÉES :
+
+            Afficher le score sur 10
+
+            Demander :
+            "[cumulateur] | C (CONTINUER), E (EXIT)"
+
+            SI le choix est "e" après conversion en minuscules :
+                Quitter la boucle de jeu
+
+            SI le choix est "c" :
+                Recommencer le jeu avec 10 nouvelles questions
+
+    QUAND LE JOUEUR A QUITTÉ :
+
+        Afficher "GOOD BYE CHAMPION"
+        Attendre 1 seconde
+
+SINON :
+
+    Afficher "Minimum de 10 questions"
+    Arrêter le programme

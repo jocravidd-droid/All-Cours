@@ -20,12 +20,12 @@ while True:
         q = number // 2
 
         verif = q * 2
-        if verif == number:
+        if verif == number: # verifie si le reste egale le chiffre de division trouver
             list_bin.append(0)
-            convert_dec_bin(q)
+            convert_dec_bin(q) # recommence le processus de division avec le resultat de q en nombre
         else:
-            list_bin.append(1)
-            convert_dec_bin(q)
+            list_bin.append(1) # si c'est non alors ajoute 1
+            convert_dec_bin(q) # recommence le processus de division avec le resultat de q en nombre
 
         return list_bin[::-1]
 
@@ -50,7 +50,8 @@ while True:
                     break
                 else:
                     b = convert_dec_bin(choice)
-                    print(f"In bits is {b}")
+                    t = ''.join(str(number) for number in b)
+                    print(f"In bits is {t}")
             elif choice_convert == 1:
                 choice = int(input("\nBits has convert (0 for exit) : "))
                 if choice == 0:
