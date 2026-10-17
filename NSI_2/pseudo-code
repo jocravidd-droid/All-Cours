@@ -6,12 +6,17 @@ Créer une liste vide : x = []
 
 ANIMATION DE CHARGEMENT DES DONNÉES
 
-Parcourir le fichier qcm.txt :
+OUVRIR LE FICHIER "qcm.txt"
+
+Séparer chaque ligne en deux parties avec .split("\n") et le conserver dans la variable l
+Parcourir le fichier qcm.txt sur le nom de "l" :
+    - verifié si y en pas un qui et vide
+    - Utiliser .strip() pour supprimer les espaces inutiles
     - Séparer chaque ligne en deux parties avec ";;"
         - La question à gauche
         - La réponse à droite
-    - Utiliser .strip() pour supprimer les espaces inutiles
     - Ajouter la question et la réponse dans x sous forme de tuple
+
 
 Parcourir la liste x :
     - Vérifier si la question existe déjà dans qcm
