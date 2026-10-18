@@ -29,8 +29,7 @@ for l in ligne:
         x.append(b)
 
 for y in x:
-    for k in y:
-        print(k)
-        qcm[k.split(",")[0]] = [k.split(",")[-1]]
+    print(y)
+    qcm[y[0]] = [str(y[1])]
 
 print(qcm)
