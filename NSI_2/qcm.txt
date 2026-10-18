@@ -1,30 +1,200 @@
-Qui est le chef du nouveau gouvernement en France en 1936 ? A-Thorez B-Blum C-Daladier D-PÃ©tain;;B
-Quel est le slogan du Front populaire ? A-Â« Avec la France, pour les FranÃ§ais Â» B-Â« libertÃ©, Ã©galitÃ©, fraternitÃ© Â» C-Â« travail, famille, patrie Â» D-Â« le pain, la paix, la libertÃ© Â»;;D
+Qui est le chef du nouveau gouvernement en France en 1936 ? A-Thorez B-Blum C-Daladier D-Pétain;;B
+Quel est le slogan du Front populaire ? A-« Avec la France, pour les Français » B-« liberté, égalité, fraternité » C-« travail, famille, patrie » D-« le pain, la paix, la liberté »;;D
 Quel parti ne compose pas le Front populaire ? A-Le Parti Radical B-La SFIO C-Le Bloc national D-Le Parti Communiste;;C
-Quel Ã©vÃ¨nement de 1934 contribua Ã  la crÃ©ation du Front populaire ? A-Le congrÃ¨s de Tours B-Les Ã©meutes des ligues C-Le Krach de Wall-Street D-La dÃ©mission de ClÃ©menceau;;B
-Quel Ã©vÃ©nement est Ã  l'origine de la crise des annÃ©es 30 ? A-La rÃ©volution Russe B-La montÃ©e du fascisme C-La premiÃ¨re guerre mondiale D-Le Krach de Wall-Street;;D
-Lequel de ces pays est une Ã®le ? A-France B-Pays-Bas C-Australie D-CorÃ©e;;C
-Quelle est la couleur du cheval blanc d'Henri 4 A-Vert B-Rouge C-Gris D-Blanc;;D
-Un octet correspond Ã  A-1bit B-4 bits C-8 bits D-32 bits;;C
-Avec 1 octet on peut coder A-255 valeurs B-8 valeurs C-16 valeurs D-256 valeurs;;D
-Qu'est ce que Microsoft Windows ? A-Un type d'ordinateur B-Un systÃ¨me d'exploitation C-Un systÃ¨me de gestion de bases de donnÃ©es;;B
-Le systÃ¨me binaire utilise la base A-2 B-10 C-8 D-16 E-Aucune de ces rÃ©ponses nâ€™est vraie.;;A
-Dans la mythologie grÃ©co-romaine, les dieux se rÃ©unissaient sur A-Le mont SinaÃ¯ B-Le VÃ©suve C-Le mont Olympe;;C
-Dans la mythologie grecque, PÃ©gase est A-Un cheval ailÃ© B-Une homme avec un tÃªte d'aigle C-Un gÃ©ant;;A
-En quelle annÃ©e FranÃ§ois Mitterrand a-t-il Ã©tÃ© Ã©lu prÃ©sident de la RÃ©publique franÃ§aise ? A-1974 B-1976 C-1981 D-1986;;C
-Quand l'armistice de la seconde guerre mondiale a-t-elle Ã©tÃ© signÃ©e A-Le 8 Mai 1945 B-Le 14 Juillet 1940 C-Le 11 Novembre 1945 D-Le 18 Juin 1940;;A
-Avec quel instrument peut-on ouvrir une porte ? A-Un chevalet B-Une bobine C-Une poignÃ©e;;C
-Quel mot dÃ©signe l'Ã©levage des oiseaux ? A-L'ostrÃ©iculture B-La cuniculture C-L'apiculture D-L'aviculture;;D
-Quelle est la mÃ©thode basÃ©e sur la persuasion par la rÃ©pÃ©tition ? A-CouÃ© B-Cauet C-Couderc D-Courbet;;A
-Avant 2003, les pays de Bosnie, Croatie, SlovÃ©nie, MacÃ©doine, MontÃ©nÃ©gro et Serbie Ã©taient regroupÃ©s sous le nom d'un Etat. De quel Etat s'agissait-il ? A-Bulgarie B-TchÃ©coslovaquie C-Kosovo D-Yougoslavie;;D
-Comment appelle-t-on un mot construit sur la base des lettres d'un autre mot ? A-Un synonyme B-Un lapsus C-Une anagramme;;C
-Comment s'appelle cette maladie infectieuse provoquÃ©e par le bacille de Koch ? A-La peste B-La tuberculose C-La poliomyÃ©lite D-La gale;;B
-Quel est l'homme d'Ã©tat crÃ©ateur de l'AcadÃ©mie FranÃ§aise ? A-Louis IV B-Henry IV C-Le cardinal de Richelieu D-Le cardinal Mazarin;;C
-Quel autre nom donne-t-on aux globules blancs ? A-Leucocytes B-Plaquettes C-TriglycÃ©rides D-HÃ©maties;;A
-Sous le rÃ¨gne de quel roi, Colbert fut-il ministre des finances ? A-Louis XIII B-Louis XIV C-Louis XV D-Louis XVI;;B
-OÃ¹ se trouve le siÃ¨ge de l'UNESCO ? A-Londres B-Paris C-New York D-GenÃ¨ve;;B
-Qui fut la premiÃ¨re prÃ©sidente du Parlement europÃ©en ? A-Edith CRESSON B-Simone VEIL C-Margaret THATCHER D-Aucune femme n'a occupÃ© ce poste;;D
-Le saturnisme est une maladie due Ã  une intoxication au A-Plomb B-Fer C-Cuivre D-Aluminium;;A
-Quelle ville franÃ§aise n'est pas situÃ©e sur le RhÃ´ne ? A-Grenoble B-Avignon C-Lyon D-Vienne;;A
-A quelle distance approximative correspond un degrÃ© de latitude terrestre ? A-111 km B-62 km C-8 km D-34 km;;A
-Quel dÃ©partement n'est pas frontalier avec l'Italie ? A-Les Alpes-de-Haute-Provence B-Les Hautes-Alpes C-La Haute-Savoie D-Le Vaucluse;;D
+Quel événement de 1934 contribua à la création du Front populaire ? A-Le congrès de Tours B-Les émeutes des ligues C-Le Krach de Wall Street D-La démission de Clemenceau;;B
+Quel événement est à l'origine de la crise des années 30 ? A-La révolution russe B-La montée du fascisme C-La Première Guerre mondiale D-Le Krach de Wall Street;;D
+Lequel de ces pays est une île ? A-France B-Pays-Bas C-Australie D-Corée;;C
+Quelle est la couleur du cheval blanc d'Henri IV ? A-Vert B-Rouge C-Gris D-Blanc;;D
+Un octet correspond à A-1 bit B-4 bits C-8 bits D-32 bits;;C
+Avec 1 octet, on peut coder A-255 valeurs B-8 valeurs C-16 valeurs D-256 valeurs;;D
+Qu'est-ce que Microsoft Windows ? A-Un type d'ordinateur B-Un système d'exploitation C-Un système de gestion de bases de données D-Un langage de programmation;;B
+Le système binaire utilise la base A-2 B-10 C-8 D-16;;A
+Dans la mythologie gréco-romaine, les dieux grecs se réunissaient sur A-Le mont Sinaï B-Le Vésuve C-Le mont Olympe D-Le mont Blanc;;C
+Dans la mythologie grecque, Pégase est A-Un cheval ailé B-Un homme avec une tête d'aigle C-Un géant D-Un dragon marin;;A
+En quelle année François Mitterrand a-t-il été élu président de la République française ? A-1974 B-1976 C-1981 D-1986;;C
+À quelle date célèbre-t-on la victoire en Europe à la fin de la Seconde Guerre mondiale ? A-Le 8 mai 1945 B-Le 14 juillet 1940 C-Le 11 novembre 1945 D-Le 18 juin 1940;;A
+Avec quel instrument peut-on ouvrir une porte ? A-Un chevalet B-Une bobine C-Une poignée D-Un compas;;C
+Quel mot désigne l'élevage des oiseaux ? A-L'ostréiculture B-La cuniculture C-L'apiculture D-L'aviculture;;D
+Quelle méthode est basée sur la persuasion par la répétition et l'autosuggestion ? A-La méthode Coué B-La méthode Cauet C-La méthode Couderc D-La méthode Courbet;;A
+Avant la dissolution de la Yougoslavie, quel État regroupait notamment la Serbie, la Croatie et la Slovénie ? A-La Bulgarie B-La Tchécoslovaquie C-Le Kosovo D-La Yougoslavie;;D
+Comment appelle-t-on un mot construit en réorganisant les lettres d'un autre mot ? A-Un synonyme B-Un lapsus C-Une anagramme D-Un antonyme;;C
+Comment s'appelle la maladie infectieuse provoquée par le bacille de Koch ? A-La peste B-La tuberculose C-La poliomyélite D-La gale;;B
+Quel homme d'État est à l'origine de la création de l'Académie française ? A-Louis IV B-Henri IV C-Le cardinal de Richelieu D-Le cardinal Mazarin;;C
+Quel autre nom donne-t-on aux globules blancs ? A-Leucocytes B-Plaquettes C-Triglycérides D-Hématies;;A
+Sous le règne de quel roi Colbert fut-il ministre ? A-Louis XIII B-Louis XIV C-Louis XV D-Louis XVI;;B
+Où se trouve le siège de l'UNESCO ? A-Londres B-Paris C-New York D-Genève;;B
+Qui fut la première femme présidente du Parlement européen ? A-Édith Cresson B-Simone Veil C-Margaret Thatcher D-Aucune femme n'a occupé ce poste;;B
+Le saturnisme est une maladie due à une intoxication au A-Plomb B-Fer C-Cuivre D-Aluminium;;A
+Quelle ville française n'est pas située sur le Rhône ? A-Grenoble B-Avignon C-Lyon D-Vienne;;A
+À quelle distance approximative correspond un degré de latitude terrestre ? A-111 km B-62 km C-8 km D-34 km;;A
+Quel département ne partage pas de frontière avec l'Italie ? A-Les Alpes-de-Haute-Provence B-Les Hautes-Alpes C-La Haute-Savoie D-Le Vaucluse;;D
+Que signifie l'acronyme CPU ? A-Central Processing Unit B-Computer Personal Unit C-Control Program Utility D-Central Print Unit;;A
+Quel composant exécute les instructions des programmes ? A-Le clavier B-Le processeur C-L'écran D-Le boîtier;;B
+À quoi sert principalement la mémoire vive (RAM) ? A-À conserver les fichiers sans électricité B-À stocker temporairement les données utilisées C-À afficher les images D-À refroidir le processeur;;B
+Quel support conserve les données même lorsque l'ordinateur est éteint ? A-La RAM B-Le cache CPU C-Le SSD D-Un registre du processeur;;C
+Lequel de ces éléments est un système d'exploitation ? A-Linux B-HTML C-Python D-Wi-Fi;;A
+Quel langage est souvent utilisé pour débuter en programmation ? A-Python B-HTTP C-SQL D-JSON;;A
+Que signifie HTML ? A-High Transfer Machine Language B-HyperText Markup Language C-Home Tool Making Language D-Hyperlink Text Machine;;B
+Quel langage sert principalement à mettre en forme une page web ? A-CSS B-SQL C-Bash D-XML uniquement;;A
+Quel protocole sécurise généralement la navigation web avec chiffrement ? A-FTP B-HTTP C-HTTPS D-Telnet;;C
+Quel appareil dirige généralement les données entre un réseau local et Internet ? A-Le routeur B-Le scanner C-Le clavier D-Le projecteur;;A
+À quoi sert principalement une adresse IP ? A-À identifier une interface sur un réseau B-À mesurer la température du CPU C-À compresser une image D-À remplacer un mot de passe;;A
+Quel service traduit généralement un nom de domaine en adresse IP ? A-DNS B-USB C-HTML D-PDF;;A
+Que signifie USB ? A-Universal Serial Bus B-United System Board C-User Storage Base D-Universal Software Backup;;A
+Quel périphérique permet de saisir du texte ? A-Le moniteur B-Le clavier C-Le haut-parleur D-Le vidéoprojecteur;;B
+Quel périphérique produit une sortie sonore ? A-Le microphone B-La webcam C-Le haut-parleur D-Le scanner;;C
+Quel est le rôle principal d'un pare-feu informatique ? A-Augmenter la luminosité B-Filtrer le trafic réseau selon des règles C-Remplacer la RAM D-Éditer des vidéos;;B
+Quel est le but principal d'une sauvegarde ? A-Accélérer le Wi-Fi B-Récupérer des données perdues ou endommagées C-Augmenter la résolution D-Supprimer les mises à jour;;B
+Quel comportement aide à sécuriser un compte ? A-Réutiliser le même mot de passe partout B-Partager son mot de passe C-Utiliser un mot de passe unique et robuste D-Écrire son mot de passe dans un message public;;C
+Qu'est-ce que l'hameçonnage (phishing) ? A-Une technique pour tromper quelqu'un afin d'obtenir des informations B-Un type de câble réseau C-Un système de refroidissement D-Un format d'image;;A
+Quelle extension désigne généralement un fichier PDF ? A-.exe B-.pdf C-.mp3 D-.py;;B
+Quel logiciel est principalement destiné à naviguer sur le Web ? A-Firefox B-LibreOffice Writer C-GIMP D-VLC;;A
+Dans un tableur, une cellule est généralement repérée par A-Une couleur seulement B-Une lettre de colonne et un numéro de ligne C-Une adresse IP D-Un nom de domaine;;B
+À quoi sert SQL principalement ? A-À interroger et manipuler des bases de données relationnelles B-À refroidir un ordinateur C-À modifier le volume sonore D-À créer uniquement des animations;;A
+Que représente généralement le symbole == en Python ? A-Une affectation B-Une comparaison d'égalité C-Une division entière D-Un commentaire;;B
+Quel mot-clé Python permet de définir une fonction ? A-func B-function C-def D-create;;C
+Quel type Python représente une suite ordonnée et modifiable d'éléments ? A-list B-int C-bool D-float;;A
+Quelle valeur booléenne signifie « vrai » en Python ? A-Yes B-True C-On D-1str;;B
+Quel symbole commence généralement un commentaire sur une ligne en Python ? A-// B-<!-- C-# D-**;;C
+Que renvoie len([4, 7, 9]) en Python ? A-2 B-3 C-4 D-20;;B
+Que produit 10 // 3 en Python ? A-3 B-3.33 C-1 D-30;;A
+Quel est le rôle d'une boucle for ? A-Répéter un bloc pour des éléments ou une séquence B-Éteindre le processeur C-Chiffrer automatiquement tous les fichiers D-Créer une adresse IP;;A
+Quel composant relie les principaux composants internes d'un ordinateur ? A-La carte mère B-La souris C-Le casque D-La webcam;;A
+Quel composant graphique est spécialisé dans le traitement des images et calculs parallèles ? A-GPU B-SSD C-PSU D-ROM;;A
+Que signifie IoT en informatique ? A-Internet of Things B-Input of Text C-Internal Output Tool D-Interface on Terminal;;A
+Quel appareil est un microcontrôleur très utilisé dans les projets électroniques débutants ? A-Arduino Uno B-Un écran OLED seul C-Un câble HDMI D-Un disque Blu-ray;;A
+Quelle est la formule chimique de l'eau ? A-CO₂ B-H₂O C-O₂ D-NaCl;;B
+Quelle planète est la plus proche du Soleil ? A-Vénus B-Mars C-Mercure D-Jupiter;;C
+Quelle planète est surnommée la planète rouge ? A-Mars B-Saturne C-Neptune D-Mercure;;A
+Combien de planètes compte le Système solaire selon la classification actuelle ? A-7 B-8 C-9 D-10;;B
+Quel gaz les plantes absorbent-elles principalement lors de la photosynthèse ? A-Oxygène B-Dioxyde de carbone C-Hélium D-Hydrogène;;B
+Quel organe pompe le sang dans le corps humain ? A-Le foie B-Le cœur C-Le poumon D-L'estomac;;B
+Combien d'os compte approximativement le squelette adulte humain ? A-106 B-206 C-306 D-406;;B
+Quelle est l'unité SI de la force ? A-Joule B-Watt C-Newton D-Pascal;;C
+Quelle est l'unité de mesure de la puissance électrique ? A-Volt B-Watt C-Ampère D-Ohm;;B
+Quelle unité mesure l'intensité du courant électrique ? A-Ampère B-Volt C-Watt D-Hertz;;A
+Quelle unité mesure la résistance électrique ? A-Ohm B-Newton C-Joule D-Mètre;;A
+Quel est le symbole chimique de l'oxygène ? A-O B-Ox C-Ag D-Om;;A
+Quel est le symbole chimique du fer ? A-F B-Fe C-Fr D-Ir;;B
+À pression atmosphérique normale, à quelle température l'eau bout-elle approximativement ? A-50 °C B-75 °C C-100 °C D-150 °C;;C
+Combien font 12 × 8 ? A-86 B-92 C-96 D-108;;C
+Combien font 144 ÷ 12 ? A-10 B-11 C-12 D-14;;C
+Quelle est la moitié de 3/4 ? A-3/8 B-2/3 C-1/4 D-3/2;;A
+Combien vaut 15 % de 200 ? A-15 B-20 C-30 D-35;;C
+Quel est le carré de 9 ? A-18 B-27 C-72 D-81;;D
+Quelle est la racine carrée de 64 ? A-6 B-7 C-8 D-9;;C
+La somme des angles d'un triangle plat vaut A-90° B-180° C-270° D-360°;;B
+Combien de côtés possède un hexagone ? A-5 B-6 C-7 D-8;;B
+Quelle est la valeur décimale du nombre binaire 1010 ? A-8 B-9 C-10 D-12;;C
+Quelle est l'écriture binaire de 5 ? A-101 B-110 C-111 D-100;;A
+Combien de bits y a-t-il dans deux octets ? A-8 B-12 C-16 D-32;;C
+Quel instrument mesure la température ? A-Baromètre B-Thermomètre C-Voltmètre D-Anémomètre;;B
+Quel instrument mesure la pression atmosphérique ? A-Baromètre B-Tachymètre C-Thermomètre D-Ampèremètre;;A
+Quelle particule porte une charge électrique négative ? A-Proton B-Neutron C-Électron D-Photon;;C
+Quel type d'énergie est associé au mouvement d'un objet ? A-Énergie cinétique B-Énergie chimique uniquement C-Énergie nucléaire uniquement D-Énergie potentielle électrique seulement;;A
+Comment appelle-t-on le passage de l'état liquide à l'état gazeux ? A-Condensation B-Solidification C-Vaporisation D-Fusion;;C
+Quelle est la vitesse approximative de la lumière dans le vide ? A-300 km/s B-3 000 km/s C-30 000 km/s D-300 000 km/s;;D
+Quel est le pH approximatif d'une solution neutre à 25 °C ? A-0 B-3 C-7 D-14;;C
+Quel organe permet principalement les échanges gazeux avec l'air ? A-Les reins B-Les poumons C-Le pancréas D-La rate;;B
+Quelle vitamine est produite par la peau sous l'effet des UVB ? A-Vitamine A B-Vitamine B12 C-Vitamine C D-Vitamine D;;D
+Quel métal est liquide à température ambiante dans les conditions ordinaires ? A-Fer B-Mercure C-Cuivre D-Aluminium;;B
+En quelle année a commencé la Révolution française ? A-1492 B-1789 C-1815 D-1914;;B
+En quelle année la Déclaration des droits de l'homme et du citoyen a-t-elle été adoptée ? A-1689 B-1789 C-1848 D-1905;;B
+Qui fut le premier empereur des Français ? A-Louis XIV B-Napoléon Ier C-Charlemagne D-Napoléon III;;B
+Quel événement marque traditionnellement le début de la Première Guerre mondiale ? A-L'attentat de Sarajevo B-La chute du mur de Berlin C-La bataille de Waterloo D-La prise de la Bastille;;A
+En quelle année la Première Guerre mondiale s'est-elle terminée ? A-1916 B-1917 C-1918 D-1923;;C
+Quel mur est tombé en 1989 ? A-Le mur d'Hadrien B-Le mur de Berlin C-La muraille de Chine D-Le mur des Lamentations;;B
+Qui était le chef de la France libre pendant la Seconde Guerre mondiale ? A-Charles de Gaulle B-Philippe Pétain C-Georges Clemenceau D-Jean Jaurès;;A
+En quelle année a été signée la Déclaration d'indépendance des États-Unis ? A-1492 B-1776 C-1789 D-1865;;B
+Quelle civilisation a construit les pyramides de Gizeh ? A-Les Romains B-Les Égyptiens de l'Antiquité C-Les Vikings D-Les Aztèques;;B
+Qui était le premier président de la Ve République française ? A-François Mitterrand B-Charles de Gaulle C-Georges Pompidou D-Valéry Giscard d'Estaing;;B
+En quelle année la Ve République française a-t-elle été instaurée ? A-1946 B-1958 C-1968 D-1981;;B
+Quel texte organise les institutions de la France actuelle ? A-Le Code civil seulement B-La Constitution C-Le Code de la route D-Le traité de Versailles;;B
+Quel est l'âge légal de la majorité civile en France ? A-16 ans B-17 ans C-18 ans D-21 ans;;C
+Quelle institution vote les lois en France ? A-Le Parlement B-La mairie seule C-Le Conseil constitutionnel seul D-La préfecture;;A
+Combien de chambres composent le Parlement français ? A-Une B-Deux C-Trois D-Quatre;;B
+Quelle est la devise de la République française ? A-Liberté, Égalité, Fraternité B-Honneur, Travail, Patrie C-Paix, Justice, Progrès D-Unité, Force, Victoire;;A
+Quelle fête nationale française est célébrée le 14 juillet ? A-La fête du Travail B-La fête nationale C-La Toussaint D-L'Armistice de 1918;;B
+Quel traité a créé l'Union européenne en 1993 ? A-Traité de Maastricht B-Traité de Rome antique C-Traité de Versailles D-Traité de Tordesillas;;A
+Quelle organisation internationale a été créée en 1945 pour favoriser la coopération entre États ? A-ONU B-OTAN uniquement C-OCDE en 1945 D-ASEAN;;A
+Quelle ville était la capitale de l'Empire romain ? A-Athènes B-Rome C-Alexandrie D-Carthage;;B
+Quel navigateur est arrivé aux Caraïbes en 1492 lors de son expédition sous pavillon espagnol ? A-Fernand de Magellan B-Christophe Colomb C-Jacques Cartier D-Marco Polo;;B
+Quel peuple est associé aux longues expéditions maritimes depuis la Scandinavie au Moyen Âge ? A-Les Incas B-Les Vikings C-Les Mayas D-Les Sumériens;;B
+Quel conflit opposa principalement les Nordistes et les Sudistes aux États-Unis de 1861 à 1865 ? A-La guerre de Sécession B-La guerre de Cent Ans C-La guerre du Péloponnèse D-La guerre de Crimée;;A
+Quelle reine d'Égypte ancienne est célèbre pour ses liens avec Jules César et Marc Antoine ? A-Néfertiti B-Cléopâtre VII C-Isabelle Ire D-Aliénor d'Aquitaine;;B
+Quelle période historique suit généralement le Moyen Âge en Europe occidentale ? A-La Préhistoire B-Les Temps modernes C-L'Antiquité D-Le Néolithique;;B
+Quelle est la capitale du Portugal ? A-Madrid B-Lisbonne C-Porto D-Séville;;B
+Quelle est la capitale du Canada ? A-Toronto B-Montréal C-Ottawa D-Vancouver;;C
+Quel est le plus grand océan de la Terre ? A-Atlantique B-Indien C-Arctique D-Pacifique;;D
+Quel fleuve traverse Paris ? A-La Loire B-La Seine C-Le Rhin D-La Garonne;;B
+Quel est le plus haut sommet du monde au-dessus du niveau de la mer ? A-Le mont Blanc B-Le Kilimandjaro C-L'Everest D-L'Aconcagua;;C
+Sur quel continent se trouve le désert du Sahara ? A-Asie B-Afrique C-Amérique du Sud D-Europe;;B
+Quelle est la capitale de l'Espagne ? A-Barcelone B-Madrid C-Valence D-Saragosse;;B
+Quelle est la capitale de l'Italie ? A-Milan B-Naples C-Rome D-Turin;;C
+Quel pays a pour capitale Tokyo ? A-Chine B-Corée du Sud C-Japon D-Thaïlande;;C
+Quelle chaîne de montagnes sépare en partie la France et l'Espagne ? A-Les Alpes B-Les Pyrénées C-Les Carpates D-Les Apennins;;B
+Quel pays est souvent décrit comme ayant la forme d'une botte ? A-La Grèce B-L'Italie C-Le Portugal D-La Norvège;;B
+Quelle est la capitale de l'Allemagne ? A-Munich B-Francfort C-Berlin D-Hambourg;;C
+Quel est le plus grand pays du monde par superficie ? A-Canada B-Chine C-États-Unis D-Russie;;D
+Quel pays a pour capitale Le Caire ? A-Égypte B-Maroc C-Tunisie D-Jordanie;;A
+Dans quel pays se trouve la ville de Marrakech ? A-Algérie B-Maroc C-Égypte D-Libye;;B
+Quelle mer borde le sud-est de la France métropolitaine ? A-La mer Baltique B-La mer Méditerranée C-La mer du Nord D-La mer Noire;;B
+Quel est le nom de la ligne imaginaire qui sépare la Terre en hémisphères Nord et Sud ? A-Le méridien de Greenwich B-L'équateur C-Le tropique du Cancer D-Le cercle polaire arctique;;B
+Quel méridien sert de référence pour la longitude zéro ? A-Le méridien de Greenwich B-L'équateur C-Le tropique du Capricorne D-Le 180e méridien exclusivement;;A
+Quelle est la capitale de la Belgique ? A-Anvers B-Bruges C-Bruxelles D-Gand;;C
+Quelle est la capitale de la Suisse fédérale ? A-Genève B-Zurich C-Berne D-Lausanne;;C
+Quel fleuve traverse Londres ? A-La Tamise B-Le Danube C-Le Pô D-Le Tage;;A
+Sur quel continent se trouve le Brésil ? A-Afrique B-Amérique du Sud C-Asie D-Europe;;B
+Quel pays est traversé par le Nil et possède une partie majeure de son delta ? A-L'Égypte B-Le Portugal C-La Norvège D-Le Chili;;A
+Quel pays a pour capitale Séoul ? A-Japon B-Corée du Sud C-Corée du Nord D-Mongolie;;B
+Quel est le plus grand désert chaud du monde ? A-Le Sahara B-Le désert de Gobi C-Le désert d'Atacama D-Le désert de Sonora;;A
+Qui a écrit Les Misérables ? A-Émile Zola B-Victor Hugo C-Molière D-Albert Camus;;B
+Qui a écrit Le Petit Prince ? A-Antoine de Saint-Exupéry B-Jules Verne C-Marcel Pagnol D-Jean de La Fontaine;;A
+Qui a écrit L'Avare ? A-Racine B-Molière C-Corneille D-Beaumarchais;;B
+Quel écrivain a créé le personnage de Sherlock Holmes ? A-Agatha Christie B-Arthur Conan Doyle C-Jules Verne D-George Orwell;;B
+Quel est le pluriel correct de « cheval » ? A-Chevals B-Chevaux C-Chevaus D-Chevales;;B
+Quel mot est un synonyme de « rapide » ? A-Lent B-Vif C-Immobile D-Tardif;;B
+Quel mot est un antonyme de « généreux » ? A-Altruiste B-Prodigue C-Avare D-Bienveillant;;C
+Dans la phrase « Les enfants jouent », quel est le sujet ? A-Jouent B-Les enfants C-Les D-Enfants jouent;;B
+Quel signe termine normalement une question directe ? A-Le point B-La virgule C-Le point d'interrogation D-Le deux-points;;C
+Combien de syllabes compte généralement le mot « ordinateur » ? A-2 B-3 C-4 D-5;;C
+Quel peintre a réalisé La Joconde ? A-Pablo Picasso B-Léonard de Vinci C-Claude Monet D-Salvador Dalí;;B
+Dans quel musée se trouve La Joconde ? A-Le musée du Louvre B-Le musée d'Orsay C-Le British Museum D-Le Prado;;A
+Qui a peint les Nymphéas ? A-Claude Monet B-Auguste Renoir C-Paul Cézanne D-Henri Matisse;;A
+Quel compositeur a écrit la Neuvième Symphonie avec l'Ode à la joie ? A-Mozart B-Beethoven C-Chopin D-Vivaldi;;B
+Quel instrument possède généralement 88 touches ? A-La flûte B-Le piano C-Le violon D-La trompette;;B
+Quel art utilise principalement des images en mouvement et du son pour raconter une histoire ? A-La sculpture B-Le cinéma C-La calligraphie D-La gravure;;B
+Quel genre littéraire raconte des événements imaginaires ou réels sous forme de récit ? A-Le récit B-La notice technique uniquement C-La facture D-Le formulaire;;A
+Qui a écrit Le Dormeur du val ? A-Arthur Rimbaud B-Paul Verlaine C-Charles Baudelaire D-Guillaume Apollinaire;;A
+Quel auteur est associé à la fable Le Corbeau et le Renard ? A-Jean de La Fontaine B-Voltaire C-Molière D-Victor Hugo;;A
+Quel est le féminin courant de « acteur » ? A-Acteure B-Actrice C-Acteuse D-Acteurette;;B
+Quel mot est correctement orthographié ? A-Acceuil B-Accueil C-Acueil D-Accueuil;;B
+Quelle figure de style rapproche deux éléments avec un outil de comparaison comme « comme » ? A-Une comparaison B-Une hyperbole C-Une anaphore D-Une litote;;A
+Quel est le contraire de « ancien » dans le sens de récent ? A-Vieux B-Moderne C-Antique D-Passé;;B
+Quelle langue est principalement parlée au Brésil ? A-Espagnol B-Portugais C-Français D-Italien;;B
+Quelle langue utilise l'alphabet cyrillique notamment en Russie ? A-Le russe B-Le néerlandais C-Le portugais D-Le swahili;;A
+Combien de joueurs d'une équipe de football sont sur le terrain au début d'un match, gardien compris ? A-9 B-10 C-11 D-12;;C
+Combien de points vaut un panier classique réussi derrière la ligne à trois points au basket ? A-1 B-2 C-3 D-4;;C
+Dans quel sport utilise-t-on une raquette et un volant ? A-Tennis de table B-Badminton C-Squash uniquement D-Hockey;;B
+Combien d'anneaux figurent sur le symbole olympique ? A-4 B-5 C-6 D-7;;B
+Sur quelle surface joue-t-on traditionnellement le tournoi de Wimbledon ? A-Terre battue B-Gazon C-Béton D-Sable;;B
+Quelle est la durée réglementaire d'un match de football adulte, hors temps additionnel ? A-60 minutes B-80 minutes C-90 minutes D-100 minutes;;C
+Quel sport se pratique avec un fleuret, une épée ou un sabre ? A-Escrime B-Aviron C-Lutte D-Tir à l'arc;;A
+Quel est le rôle principal des globules rouges ? A-Transporter l'oxygène B-Produire les cheveux C-Digérer les aliments D-Former les os;;A
+Quelle habitude aide à prévenir la propagation de nombreuses infections ? A-Se laver régulièrement les mains B-Partager sa brosse à dents C-Tousser dans ses mains sans les laver D-Éviter toute aération;;A
+Quel numéro d'urgence européen fonctionne dans les pays de l'Union européenne ? A-112 B-118 C-123 D-911 uniquement;;A
+Quel document sert généralement à prouver son identité en France ? A-La carte d'identité B-La carte de bibliothèque uniquement C-Le ticket de caisse D-La carte de fidélité;;A
+À quoi sert principalement un extincteur ? A-Éteindre un départ de feu adapté à sa classe B-Refroidir un ordinateur C-Absorber les inondations D-Mesurer le monoxyde de carbone;;A
+Que signifie le pictogramme de recyclage formé de trois flèches en boucle ? A-Un processus de recyclage ou de valorisation B-Un danger électrique à chaque fois C-Une matière toujours biodégradable D-Une date de péremption;;A
+Quel appareil permet de mesurer la masse d'un objet ? A-Une balance B-Un thermomètre C-Un chronomètre D-Un baromètre;;A
+Quel moyen de paiement permet généralement d'effectuer un règlement sans utiliser d'espèces ? A-La carte bancaire B-Le timbre-poste C-Le ticket de métro D-La carte de bibliothèque;;A
+Dans un courriel, que signifie « Cci » ? A-Copie carbone invisible B-Compte client individuel C-Courrier classé immédiatement D-Confirmation de connexion interne;;A
+Quel comportement est recommandé face à une pièce jointe inattendue d'un expéditeur inconnu ? A-L'ouvrir immédiatement B-La transférer à tout le monde C-Ne pas l'ouvrir et vérifier le message D-Désactiver l'antivirus;;C
+Quel est le but d'un budget personnel ? A-Prévoir les revenus et les dépenses B-Augmenter automatiquement le salaire C-Éviter de noter les achats D-Remplacer un compte bancaire;;A
+Quel organisme collecte généralement les impôts en France ? A-L'administration fiscale B-La bibliothèque municipale C-La fédération sportive D-Le service météo;;A
+Quel document détaille généralement le salaire, les cotisations et le net versé ? A-Le bulletin de paie B-Le certificat de naissance C-Le plan de métro D-Le contrat de location uniquement;;A
+Que signifie l'acronyme CV dans le contexte d'une recherche d'emploi ? A-Curriculum vitæ B-Code de vérification C-Compte virtuel D-Courrier vocal;;A
+Quel est l'objectif principal d'une lettre de motivation ? A-Expliquer son intérêt pour un poste ou une formation B-Remplacer systématiquement le CV C-Lister uniquement ses loisirs D-Demander un salaire sans présenter son projet;;A
+Quel comportement est le plus adapté lors d'un entretien d'embauche ? A-Écouter les questions et répondre clairement B-Interrompre constamment le recruteur C-Ne pas se renseigner sur le poste D-Arriver volontairement en retard;;A
+Quel outil sert à organiser des tâches avec des dates et des échéances ? A-Un calendrier B-Un lecteur audio C-Un éditeur d'images uniquement D-Un câble USB;;A
+Quelle source est généralement la plus fiable pour connaître une consigne administrative officielle ? A-Le site officiel de l'administration concernée B-Un commentaire anonyme sans source C-Une publicité D-Une rumeur sur un réseau social;;A

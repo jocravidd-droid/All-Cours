@@ -1,99 +1,101 @@
-PRÉSENTATION DU QCM DE FAÇON STYLÉE
+Algorithme — Quiz Choice Multi
 
-Créer un dictionnaire vide : qcm
-Initialiser le cumulateur à 0
-Créer une liste vide : x = []
+1. Présentation du QCM
+    - Afficher le logo du programme de façon stylée.
+    - Créer un dictionnaire vide : qcm = {}
+    - Initialiser le cumulateur à 0.
+    - Créer une liste vide : x = [].
 
-ANIMATION DE CHARGEMENT DES DONNÉES
+2. Animation de chargement des données
+    - Afficher une barre de chargement animée.
+    - Mettre à jour la barre progressivement jusqu’à 100 %.
 
-OUVRIR LE FICHIER "qcm.txt"
+3. Ouverture et lecture du fichier qcm.txt
+    - Ouvrir le fichier qcm.txt en lecture avec l’encodage UTF-8.
+    - Lire tout le contenu du fichier.
+    - Séparer le contenu en lignes avec .split("\n") et conserver le résultat dans ligne.
 
-Séparer chaque ligne en deux parties avec .split("\n") et le conserver dans la variable l
-Parcourir le fichier qcm.txt sur le nom de "l" :
-    - verifié si y en pas un qui et vide
-    - Utiliser .strip() pour supprimer les espaces inutiles
-    - Séparer chaque ligne en deux parties avec ";;"
-        - La question à gauche
-        - La réponse à droite
-    - Ajouter la question et la réponse dans x sous forme de tuple
+Parcourir chaque ligne l :
+    1. Utiliser .strip() pour supprimer les espaces inutiles au début et à la fin.
+    2. Vérifier si la ligne est vide.
+        - Si oui : passer à la ligne suivante.
+        - Sinon : continuer.
+    3. Séparer la ligne en deux parties avec .split(";;") :
+       - À gauche : la question et ses propositions.
+       - À droite : la bonne réponse.
+    4. Vérifier que la ligne contient bien les deux parties attendues.
+       - Si la ligne est mal formée : afficher une erreur en rouge et passer à la suivante.
+       - Sinon : ajouter les deux parties dans la liste x.
+       
+4. Vérification des questions et création du dictionnaire
+Parcourir chaque élément y de la liste x :
+- Vérifier si la question existe déjà dans qcm.
+    - Si oui : afficher une erreur en rouge, par exemple [ERREUR] Question en double, et ne pas ajouter cette question.
+    - Si non : enregistrer la question comme clé et sa bonne réponse comme valeur dans qcm.
+    
+- Terminer l’animation de chargement.
+- Effacer l’écran si nécessaire.
+- Afficher à nouveau le logo.
 
+5. Préparation du jeu
+    - Créer q, une liste contenant les clés de qcm.
+    Si len(q) < 10 :
+        - Afficher [ERREUR] Minimum de 10 questions.
+        - Ouvrir la page Pixees dans le navigateur si cette action est souhaitée.
+        - Arrêter le programme.
+    Sinon : commencer la boucle de jeu.
 
-Parcourir la liste x :
-    - Vérifier si la question existe déjà dans qcm
-        - Si oui :
-            - Signaler une erreur en rouge sous l'animation :
-              "[ERREUR] {raison}"
-            - Continuer le traitement
-        - Sinon :
-            - Continuer le traitement
-    - Enregistrer la question dans qcm avec sa réponse
-      (si la clé existe déjà, sa valeur sera remplacée)
+6. Boucle de jeu
+    Répéter tant que le joueur ne quitte pas le jeu.
+        A. Préparation de la partie
+            - Initialiser score à 0.
+            - Sélectionner 10 questions au hasard dans q avec random.sample(), sans répétition dans la partie.
+            - Créer un dictionnaire vide qcm_choice = {}.
 
-FIN DE L'ANIMATION
+        B. Identification des propositions
+            Parcourir chaque question c de carte :
+                - Créer la liste des lettres possibles : ["A", "B", "C", "D", "E"].
+                - Créer une liste vide choix = [].
+                - Parcourir chaque lettre m :
+                - Vérifier si f"{m}-" est présent dans la question.
+                - Si oui, ajouter m à choix.
+                - Enregistrer la question et ses propositions autorisées dans qcm_choice.
+        
+        C. Affichage des questions et saisie des réponses
+            Parcourir chaque question de qcm_choice.
+                1. Afficher la question.
+                2. Demander une réponse au joueur.
+                3. Supprimer les espaces inutiles de la saisie et convertir la réponse en majuscule.
 
-q = liste des clés de qcm
-
-SI le nombre de questions est supérieur ou égal à 10 :
-
-    BOUCLE DE JEU :
-
-        Initialiser le score de la partie à 0
-
-        carte = sélectionner 10 questions au hasard dans q,
-                sans répétition
-
-        Parcourir carte :
-            La question en cours est q_en_cours
-
-            Afficher q_en_cours
-
-            majuscule = ["A", "B", "C", "D", "E"]
-            choix = []
-
-            Parcourir chaque lettre m dans majuscule :
-                test = vérifier si f"{m}-" est présent dans q_en_cours
-
-                SI test est vrai :
-                    Ajouter m à choix
-
-            DEMANDER une réponse au joueur
-
-            VÉRIFIER LA RÉPONSE :
-
-                SI la réponse est absente de choix :
-                    Afficher "Hmm, réessaie"
-                    Redemander la réponse
-                    Recommencer la vérification
-
-                SINON SI la réponse est incorrecte :
-                    Afficher "Bien essayé, mais c'était {réponse correcte}"
-                    Passer à la question suivante
-
-                SINON SI la réponse est correcte :
-                    Afficher "Bien joué !"
-                    score += 1
-                    cumulateur += 1
-                    Passer à la question suivante
-
-        QUAND LES 10 QUESTIONS SONT TERMINÉES :
-
-            Afficher le score sur 10
-
-            Demander :
-            "[cumulateur] | C (CONTINUER), E (EXIT)"
-
-            SI le choix est "e" après conversion en minuscules :
-                Quitter la boucle de jeu
-
-            SI le choix est "c" :
-                Recommencer le jeu avec 10 nouvelles questions
-
-    QUAND LE JOUEUR A QUITTÉ :
-
-        Afficher "GOOD BYE CHAMPION"
-        Attendre 1 seconde
-
-SINON :
-
-    Afficher "Minimum de 10 questions"
-    Arrêter le programme
+            Vérifier la validité de la réponse :
+	        - Si la réponse ne figure pas dans la liste choix :
+  		    - Afficher Hmm, je connais pas cette réponse !!
+		- Si la réponse est valide et correspond à la bonne réponse enregistrée dans qcm :
+  		   - Afficher Bien joué !
+                   - Ajouter 1 au score de la partie.
+                   - Ajouter 1 au cumulateur général.
+                   - Passer à la question suivante.
+                - Si la réponse est valide mais incorrecte :
+                   - Afficher Bien essayé, mais c'était '{réponse correcte}'.
+                   - Passer à la question suivante.
+                   
+    D. Fin de la partie
+        Lorsque les 10 questions sont terminées :
+            - Afficher le score obtenu sur 10.
+            - Demander : [cumulateur] | C (CONTINUER), E (EXIT) :
+	    - Convertir la saisie en majuscule.
+            Si le choix est E :
+                - Quitter la boucle de jeu.
+	    Si le choix est C :
+                - Effacer l’écran.
+                - Recommencer une nouvelle partie avec 10 questions tirées au hasard.
+            Si le choix est invalide :
+	        - Afficher un message d’erreur.
+	        - Effacer l’écran.
+                - Recommencer une nouvelle partie avec 10 questions
+	        
+7. Fin du programme
+    Lorsque le joueur quitte le jeu :
+        - Afficher GOOD BYE CHAMPION.
+        - Attendre une seconde.
+        - Terminer le programme.
