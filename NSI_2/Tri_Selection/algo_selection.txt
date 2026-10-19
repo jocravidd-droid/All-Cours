@@ -1,0 +1,22 @@
+VARIABLE
+t : tableau d'entiers
+i : nombre entier
+min : nombre entier
+j : nombre entier
+DEBUT
+i←1
+tant que i<longueur(t):  
+  j←i+1
+  min←i
+  tant que j<=longueur(t):  
+    si t[j]<t[min]:
+      min←j
+    fin si
+    j←j+1
+  fin tant que
+  si min≠i :
+    échanger t[i] et t[min]
+  fin si
+  i←i+1
+fin tant que
+FIN
