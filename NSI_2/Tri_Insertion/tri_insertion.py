@@ -14,10 +14,12 @@ k = 0
 j = 2
 while j <= len(t):
     i = j - 1
+    print("1 :", i)
     k = t[j]
-    while i > 0 and t[i] > k:
+    if i >= 0 and t[i] > k:
         t[i + 1] = t[i]
         i = i - 1
+        print("2 :", i)
     # ???
 
 # ???
