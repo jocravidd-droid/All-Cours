@@ -36,26 +36,30 @@ for i in range(51):
 print()
 
 
-def charger_qcm():
-    with open("qcm.txt", "r", encoding="utf-8") as f:
+def charger_qcm(fichier, liste, dictionnaire=None, encodage="utf-8"):
+    if dictionnaire is None:
+        dictionnaire = {}
+
+    with open(f"{fichier}", "r", encoding=encodage) as f:
         contenu = f.read()
 
     ligne = contenu.split("\n")
     for l in ligne:
         a = l.strip()
         b = a.split(";;")
-        if b[0] != "" and b[1] != "":
-            if len(b[0]) != 0 and len(b[1]) != 0:
-                x.append(b)
+        if len(b) == 2 and b[0] != "" and b[1] != "":
+            liste.append(b)
 
-    for y in x:
-        if y[0] in qcm:
+    for y in liste:
+        if y[0] in dictionnaire:
             print(f"{rouge}[ERROR] Double Question{reset}")
         else:
-            qcm[y[0]] = y[1]
+            dictionnaire[y[0]] = y[1]
+
+    return dictionnaire
 
 
-charger_qcm()
+charger_qcm("qcm.txt", x, qcm)
 print("\033[u", end="", flush=True)
 
 time.sleep(1)
