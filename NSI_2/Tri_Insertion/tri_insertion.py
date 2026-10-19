@@ -12,7 +12,7 @@ j = 0
 k = 0
 # Debut
 j = 1
-while j <= len(t + 1):
+while j <= len(t) + 1:
     i = j - 1
     print("1 :", i)
     k = t[j]
