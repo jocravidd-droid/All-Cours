@@ -19,6 +19,7 @@ while i < len(t):
     while j < len(t):
         if t[j] < t[mini]:
             mini = j
+            j = j + 1
         else:
             j = j + 1
     k = t[i]
@@ -27,4 +28,5 @@ while i < len(t):
         t[mini] = k
     i = i + 1
 
+# FIN
 print(t)
