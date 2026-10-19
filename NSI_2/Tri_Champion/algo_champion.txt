@@ -1,0 +1,26 @@
+ALGORITHME CHAMPION
+
+VARIABLES
+    liste : liste de nombres
+    champion : nombre
+    l : nombre
+    big : liste
+    small : liste
+
+DEBUT
+    champion ← premier élément de liste
+    big ← liste vide
+    small ← liste vide
+
+    POUR chaque l dans liste :
+        SI l >= champion ALORS
+            ajouter l à big
+            champion ← l
+        SINON
+            ajouter l à small
+        FIN SI
+    FIN POUR
+
+    afficher "GRAND CHIFFRE :", big
+    afficher "PETIT CHIFFRE :", small
+FIN
