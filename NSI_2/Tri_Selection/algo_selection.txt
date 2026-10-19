@@ -1,3 +1,5 @@
+# VERSION PROF
+
 VARIABLE
 t : tableau d'entiers
 i : nombre entier
@@ -19,4 +21,40 @@ tant que i<longueur(t):
   fin si
   i←i+1
 fin tant que
+FIN
+
+# VERSION ADAPETER A PYTHON
+
+VARIABLE
+    t : tableau d'entiers
+    i : nombre entier
+    mini : nombre entier
+    j : nombre entier
+    k : nombre entier
+
+DEBUT
+    i ← 0
+
+    tant que i < longueur(t):
+        j ← i + 1
+        mini ← i
+
+        tant que j < longueur(t):
+            si t[j] < t[mini]:
+                mini ← j
+            sinon:
+                j ← j + 1
+            fin si
+        fin tant que
+
+        k ← t[i]
+
+        si mini ≠ i:
+            t[i] ← t[mini]
+            t[mini] ← k
+        fin si
+
+        i ← i + 1
+    fin tant que
+
 FIN
