@@ -1,3 +1,5 @@
+# Version Original
+
 VARIABLE
 t : tableau d'entiers
 i : nombre entier
@@ -13,6 +15,26 @@ tant que j<=longueur(t):
     i←i-1
   fin tant que
   t[i+1]←k
+  j←j+1
+fin tant que
+FIN
+
+# Version Adapter a python
+
+VARIABLE
+t : tableau d'entiers
+i : nombre entier
+j : nombre entier
+k : nombre entier
+DEBUT
+j←2
+tant que j < longueur(t):  
+  i←j-1
+  k←t[j]
+  tant que i>0 et que t[i]>k:
+    t[i+1]←t[i]
+    i←i-1
+    t[i+1]←k
   j←j+1
 fin tant que
 FIN
