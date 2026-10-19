@@ -18,7 +18,7 @@ while j < len(t):
     while i >= 0 and t[i] > k:
         t[i + 1] = t[i]
         i = i - 1
-        t[i + 1] = k
+    t[i + 1] = k
     j = j + 1
 
 # FIN
