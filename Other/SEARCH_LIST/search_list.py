@@ -535,6 +535,7 @@ def search_list(n, liste=None):
     for l in liste:
         if l < n:
             k.append(l)
+            k.sort()
         else:
             continue
 
