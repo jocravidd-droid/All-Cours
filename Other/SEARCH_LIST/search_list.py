@@ -4,7 +4,11 @@ PROGRAMME DE L'EXERCICE https://www.practicepython.org/exercise/2014/02/15/03-li
 
 """
 
+from time import sleep
 
+
+# SORTIRE DES CHIFFRE INFERIREUR A [N] SOIT DANS SA LISTE SOIT LA GRAND LISTE PAR DEFAUT QUI A EXACTEMENT 5000 CHIFFRE DEDANS
+# JE L'AI RENDU PLUS INTERACTIVE EN GARDANT LES REGLE DEMANDER
 def search_list(n, liste=None):
 
     if liste is None:
@@ -535,13 +539,15 @@ def search_list(n, liste=None):
     for l in liste:
         if l < n:
             k.append(l)
-            k.sort()
         else:
             continue
 
+    k.sort()
     return k
 
 
+# EFFACE LES ESPACE ET CHANGE LES CHIFFRE EN ENTIER AVANT DE LES METTRE DANS UNE NOUVELLE LISTE
+# BUT EMPECHER TOUT PROBLEME DANS LA CREATION DE SA PROPRE LISTE A CAUSE D'ESPACE OU DU FAIT QUE .SPLIT() GARDE TOUT EN STRING
 def numerisateur(liste):
 
     k = []
@@ -552,21 +558,34 @@ def numerisateur(liste):
     return k
 
 
-try:
-    print("\nchiffre en dessous de ?")
-    c = int(input(">> "))
-    print("Si vous avez un liste perso entrer 'y' sinon 'n'")
-    choix = input(">> ")
-    if choix.lower() == "y":
-        print("ENTREZ LA VOUS MEME AVEC ','")
-        perso_list = input(">> ").split(",")
-        new = numerisateur(perso_list)
-        result = search_list(c, new)
-        print("Result : ", result, "TOTAL : ", len(result))
-    elif choix.lower() == "n":
-        result = search_list(c)
-        print("Result : ", result, "TOTAL : ", len(result))
-    else:
-        raise ValueError("CHOIX INCONNU !!")
-except ValueError as a:
-    print(f"[ERROR] : {a}")
+# GÉRE LES ERREUR DE FRAPPE ET BOUCLE EN CONTINUE
+# LAISSER PLUS D'AUTONOMIE A L'UTILISATEUR ET J'AI LAISSER MA SIGNIATURE SI EN PEUX DIRE🐇
+while True:
+    try:
+        print("\nchiffre en dessous de ?")
+        c = int(input(">> "))
+        print("Si vous avez un liste perso entrer 'y' sinon 'n'")
+        choix = input(">> ")
+        if choix.lower() == "y":
+            print("ENTREZ LA VOUS MEME AVEC ','")
+            perso_list = input(">> ").split(",")
+            new = numerisateur(perso_list)
+            result = search_list(c, new)
+            print("Result : ", result, "TOTAL : ", len(result))
+        elif choix.lower() == "n":
+            result = search_list(c)
+            print("Result : ", result, "TOTAL : ", len(result))
+        elif choix == "🐇":
+            print("A BIENTOT...")
+            sleep(1)
+            print("LE LAPIN VOUS REMERCIE DE VOTRE VISITE...")
+            sleep(1)
+            break
+        else:
+            raise ValueError("CHOIX INCONNU !!")
+    except ValueError as a:
+        print(f"[ERROR] : {a}")
+    except (EOFError, KeyboardInterrupt):
+        break
+
+print("🐇 Fin du programme. Suivez le lapin blanc...")  # JE ME SUIS FAIT PLAISIR
