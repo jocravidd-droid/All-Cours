@@ -1,0 +1,75 @@
+FONCTION dessinPendu(nb)
+    Contient les 7 dessins du pendu
+    Retourner le dessin correspondant à nb
+FIN FONCTION
+
+
+FONCTION livre_pendu(fichier)
+    Ouvrir le fichier de mots
+    Lire tout le contenu du fichier
+    Séparer le contenu en une liste de mots
+    Nettoyer les mots
+    Retourner la liste de mots
+FIN FONCTION
+
+
+ALGORITHME JeuDuPendu
+
+Variables :
+    liste_mots : liste des mots du fichier
+    mot_secret : mot choisi pour la partie
+    lettres_trouvees : lettres correctement proposées
+    lettres_utilisees : lettres déjà proposées
+    lettre : lettre saisie par le joueur
+    erreurs : nombre d'erreurs commises
+    mot_affiche : mot avec les lettres cachées
+
+Début
+
+    Récupérer la liste des mots avec livre_pendu()
+    Choisir un mot au hasard dans liste_mots
+
+    Créer une liste vide lettres_trouvees
+    Créer une liste vide lettres_utilisees
+    Initialiser erreurs à 0
+
+    Afficher le titre du jeu
+
+    Tant que le mot n'est pas entièrement découvert
+    ET que erreurs est inférieur à 6 :
+
+        Construire mot_affiche :
+            Pour chaque lettre de mot_secret :
+                Si la lettre est dans lettres_trouvees :
+                    Afficher cette lettre
+                Sinon :
+                    Afficher un tiret bas "_"
+
+        Afficher mot_affiche
+        Afficher dessinPendu(erreurs)
+
+        Demander une lettre au joueur
+
+        Si la lettre est dans lettres_utilisees :
+            Afficher "Lettre déjà proposée"
+
+        Sinon :
+            Ajouter la lettre à lettres_utilisees
+
+            Si la lettre est dans mot_secret :
+                Ajouter la lettre à lettres_trouvees
+                Afficher "Bonne réponse"
+
+            Sinon :
+                Augmenter erreurs de 1
+                Afficher "Mauvaise réponse"
+
+    Si le mot est entièrement découvert :
+        Afficher "Bravo, vous avez gagné !"
+
+    Sinon :
+        Afficher dessinPendu(erreurs)
+        Afficher "Vous avez perdu"
+        Afficher mot_secret
+
+Fin
