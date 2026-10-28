@@ -1,4 +1,4 @@
-# Projets-en-cours
+# All Cours
 
 Bonjour et bienvenue sur ce dépôt !
 

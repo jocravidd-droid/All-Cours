@@ -1,5 +1,4 @@
 import pandas
 
-iden = pandas.read_csv("ident_virgule.csv")
-info = iden.loc[[0, 1], ["nom", "date_naissance"]]
-print(info)
+info_villes = pandas.read_csv("villes_virgule.csv")
+print(info_villes)
