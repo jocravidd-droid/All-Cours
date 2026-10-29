@@ -1,0 +1,19 @@
+Variable
+
+t : list
+total_piece : int
+somme : int
+
+Debut
+
+somme <-- rendre
+total_piece <-- 0
+m <-- trier t du plus grand au plus petit
+parcourire m en pièce_actuelle:
+    tands que somme >= pièce_actuelle:
+        somme -= pièce_actuelle
+        total_piece += 1
+        fin tands que
+    fin parcourire
+
+afficher total_piece

@@ -34,6 +34,6 @@ def dichotomique(t, x):
         return "Introuvable ​❌​"
 
 
-logging.basicConfig(level=logging.DEBUG)
+# logging.basicConfig(level=logging.DEBUG)
 x = dichotomique(t, x)
 print(x)
