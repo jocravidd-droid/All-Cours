@@ -1,3 +1,9 @@
+"""
+
+CODE FOURNIE PAR https://pixees.fr/informatiquelycee/prem/c32a.html
+
+"""
+
 import matplotlib.pyplot as plt
 import pandas
 from sklearn.neighbors import KNeighborsClassifier
@@ -12,7 +18,7 @@ lab = iris.loc[:, "species"]
 # valeurs
 longueur = 2.5
 largeur = 0.75
-k = 3
+k = 5
 # fin valeurs
 
 # graphique
