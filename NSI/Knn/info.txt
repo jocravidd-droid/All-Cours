@@ -1,0 +1,16 @@
+Principales variables (colonnes)
+
+Chaque ligne représente un passager décrit par 12 variables principales :
+• PassengerId : identifiant unique du passager.
+• Survived : indicateur de survie (0 = décédé, 1 = survie) (absent du fichier test).
+• Pclass : classe du billet (1, 2 ou 3, reflétant le statut socio-économique).
+• Name : nom et civilité du passager.
+• Sex : sexe (male ou female).
+• Age : âge en années.
+• SibSp : nombre de frères/sœurs ou conjoints à bord.
+• Parch : nombre de parents ou enfants à bord.
+• Ticket : numéro de billet.
+• Fare : prix payé pour le billet.
+• Cabin : numéro de cabine (souvent incomplet).
+• Embarked : port d'embarquement (C = Cherbourg, Q = Queenstown, S = Southampton).
+
