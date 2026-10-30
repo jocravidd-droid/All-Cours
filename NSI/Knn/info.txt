@@ -14,3 +14,5 @@ Chaque ligne représente un passager décrit par 12 variables principales :
 • Cabin : numéro de cabine (souvent incomplet).
 • Embarked : port d'embarquement (C = Cherbourg, Q = Queenstown, S = Southampton).
 
+Garder : Pclass, Embarked, Sex, Age, Parch
+Supprimer : PassengerId, Survived, Name, SibSp, Ticket, Fare, Cabin
