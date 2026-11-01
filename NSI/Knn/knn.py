@@ -124,10 +124,11 @@ def main():
     modele.fit(x_train, y_train)
     y_pred = modele.predict(x_test)
     pourcentage = accuracy_score(y_true=y_test, y_pred=y_pred) * 100
-    if round(pourcentage, 2) > 65:
+    if pourcentage > 65:
         return modele
     else:
         print(f"Pourcentage: {pourcentage:.2f}")
+        return 0
 
 
 if __name__ == "__main__":
