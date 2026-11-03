@@ -1,0 +1,20 @@
+### Les opérations possibles sur une liste
+
+| Opération                     | Fonction             | Description                                              |
+| ----------------------------- | -------------------- | -------------------------------------------------------- |
+| Créer une liste vide          | `L = vide()`         | Crée une liste `L` sans aucun élément.                   |
+| Tester si une liste est vide  | `estVide(L)`         | Renvoie `vrai` si la liste `L` est vide, sinon `faux`.   |
+| Ajouter un élément en tête    | `ajouteEnTete(x, L)` | Ajoute l'élément `x` au début de la liste `L`.           |
+| Supprimer la tête             | `supprEnTete(L)`     | Supprime le premier élément de `L` et renvoie sa valeur. |
+| Compter les éléments          | `compte(L)`          | Renvoie le nombre d'éléments présents dans `L`.          |
+| Construire une nouvelle liste | `cons(x, L)`         | Crée une nouvelle liste en ajoutant `x` en tête de `L`.  |
+
+Enchaîner les opérations `cons` :
+
+Il est possible d'enchaîner plusieurs appels à `cons` pour construire une liste :
+
+cons(x, cons(y, cons(z, L)))
+
+Chaque appel ajoute un nouvel élément en tête de la liste.
+
+Site : "https://pixees.fr/informatiquelycee/n_site/nsi_term_structDo_liste.html"
