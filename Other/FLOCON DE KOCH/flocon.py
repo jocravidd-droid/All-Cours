@@ -1,5 +1,5 @@
 """
-EN COURS DE REVERSE-ENGINEERING
+EN COURS DE fREVERSE-ENGINEERING
 """
 
 import turtle as t
@@ -19,9 +19,6 @@ def koch(longueur, n):
 
 
 def flocon(taille, etape):
-    t.title("FLOCON DE KOCH")
-    t.color("red")
-    t.bgcolor("black")
     koch(taille, etape)
     t.right(120)
     koch(taille, etape)
