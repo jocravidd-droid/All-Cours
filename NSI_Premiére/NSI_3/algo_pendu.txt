@@ -1,0 +1,115 @@
+ALGORITHME JeuDuPendu
+
+Variables :
+
+    liste_mots          : liste des mots disponibles
+    mot_secret          : chaîne de caractères
+    lettres_trouvees    : liste des lettres correctes
+    lettres_utilisees   : liste des lettres déjà proposées
+    lettre              : caractère saisi par le joueur
+    erreurs             : entier
+    mot_affiche         : chaîne de caractères
+
+
+DÉBUT
+
+    AFFICHER "================ JEU DU PENDU ================"
+
+    // INITIALISATION DE LA PARTIE
+
+    liste_mots ← livre_pendu("mots.txt")
+
+    Choisir un mot au hasard dans liste_mots
+    Stocker le résultat dans mot_secret
+
+    lettres_trouvees ← liste vide
+    lettres_utilisees ← liste vide
+
+    erreurs ← 0
+
+    mot_affiche ← chaîne composée de "_" 
+                  répétée autant de fois que mot_secret
+                  contient de caractères
+
+
+    // BOUCLE PRINCIPALE
+
+    TANT QUE erreurs < 6 ET mot_affiche != mot_secret :
+
+        AFFICHER dessinPendu(erreurs)
+        AFFICHER mot_affiche
+        AFFICHER lettres_utilisees
+
+        DEMANDER une lettre au joueur
+        Convertir la saisie en minuscules
+        Supprimer les espaces inutiles
+
+
+        // VERIFICATION DE LA SAISIE
+
+        SI la saisie ne contient pas exactement un caractère
+        OU si le caractère n'est pas une lettre :
+
+            AFFICHER "Saisie invalide"
+
+            PASSER AU TOUR SUIVANT
+
+
+        SINON SI lettre appartient à lettres_utilisees :
+
+            AFFICHER "Lettre déjà proposée"
+
+            PASSER AU TOUR SUIVANT
+
+
+        SINON :
+
+            Ajouter lettre à lettres_utilisees
+
+
+            // VERIFICATION DE LA LETTRE
+
+            SI lettre appartient à mot_secret :
+
+                Ajouter lettre à lettres_trouvees
+
+                AFFICHER "Bonne réponse"
+
+
+            SINON :
+
+                Augmenter erreurs de 1
+
+                AFFICHER "Mauvaise réponse"
+
+
+            // RECONSTRUCTION DU MOT AFFICHE
+
+            mot_affiche ← chaîne vide
+
+            POUR chaque caractère dans mot_secret :
+
+                SI caractère appartient à lettres_trouvees :
+
+                    Ajouter caractère à mot_affiche
+
+                SINON :
+
+                    Ajouter "_" à mot_affiche
+
+
+    // FIN DE LA PARTIE
+
+    AFFICHER dessinPendu(erreurs)
+    AFFICHER mot_affiche
+
+    SI mot_affiche = mot_secret :
+
+        AFFICHER "Bravo, vous avez gagné !"
+
+    SINON :
+
+        AFFICHER "Vous avez perdu !"
+        AFFICHER "Le mot était : ", mot_secret
+
+FIN ALGORITHME

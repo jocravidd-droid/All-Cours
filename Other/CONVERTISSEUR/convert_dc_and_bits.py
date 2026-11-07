@@ -54,8 +54,8 @@ while True:
                     t = ''.join(str(number) for number in b)
                     print(f"In bits is {t}")
             elif choice_convert == 1:
-                choice = int(input("\nBits has convert (0 for exit) : "))
-                if choice == 0:
+                choice = int(input("\nBits has convert (90 for exit) : "))
+                if choice == 90:
                     print("Good Bye")
                     break
                 else:
