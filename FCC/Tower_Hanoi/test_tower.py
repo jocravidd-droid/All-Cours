@@ -6,13 +6,13 @@ from tower import hanoi_solver
 def test_hanoi_solver():
     result = hanoi_solver(3).split("\n")
 
-    # Vérifie l'état initial.
+    # Vérifie l'état initial
     assert result[0] == "[3, 2, 1] [] []"
 
-    # Vérifie l'état final.
+    # Vérifie l'état final
     assert result[-1] == "[] [] [3, 2, 1]"
 
-    # Vérifie le nombre total d'états (7 déplacements + état initial).
+    # Vérifie le nombre total d'états (7 déplacements + état initial)
     assert len(result) == 2**3
 
 

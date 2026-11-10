@@ -24,6 +24,7 @@ def decrypt(text, shift):  # Déchiffrage ( SOUS-TRAITANT )
     return caesar(text=text, shift=shift, encrypt=False)
 
 
-encrypted_text = "Pbhentr vf sbhaq va hayvxryl cynprf."
-decrypted_text = decrypt(encrypted_text, 13)
-print(decrypted_text)
+if __name__ == "__main__":
+    encrypted_text = "Pbhentr vf sbhaq va hayvxryl cynprf."
+    decrypted_text = decrypt(encrypted_text, 13)
+    print(decrypted_text)
